@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto Império Bizantino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+
+        <!-- Screen 1: Introdução -->
+        <div id="screen1" class="screen">
+            <h2>Introdução ao Alto Império Bizantino</h2>
+            <p>O Império Bizantino, originário da divisão do Império Romano, desempenhou um papel
+                crucial na história mundial, especialmente durante o seu alto império.</p>
+            <button class="next-btn" onclick="goToScreen(2)">➡️</button>
+        </div>
+
+        <!-- Screen 2: Fundação de Constantinopla -->
+        <div id="screen2" class="screen">
+            <h2>Contexto Histórico
+            </h2>
+            <p>Após a queda do Império Romano do Ocidente no século V, o Império Romano do Oriente, também conhecido
+                como Império Bizantino, continuou a prosperar. Com sua capital em Constantinopla, o império se
+                tornou um baluarte da cultura e tradição romanas.</p>
+            <button class="next-btn" onclick="goToScreen(3)">➡️</button>
+        </div>
+
+        <!-- Screen 3: Cultura Bizantina -->
+        <div id="screen3" class="screen">
+            <h2>Reconquistas e Expansão Territorial
+            </h2>
+            <p>Sob a liderança de imperadores como Justiniano I, o império embarcou em campanhas ambiciosas para
+                reconquistar terras que já haviam sido romanas. Estas campanhas resultaram na reaquisição de partes
+                da Itália, norte da África e da Península Ibérica.
+            </p>
+            <button class="next-btn" onclick="goToScreen(4)">➡️</button>
+        </div>
+
+        <!-- Screen 4: Economia e Comércio -->
+        <div id="screen4" class="screen">
+            <h2>Corpus Juris Civilis
+
+            </h2>
+            <p>Durante o reinado de Justiniano I, uma das contribuições mais notáveis foi a codificação do direito
+                romano no "Corpus Juris Civilis". Esta vasta coleção de leis e estatutos serviu não apenas como a
+                base jurídica para o império, mas também influenciou sistemas legais em todo o mundo ocidental por
+                séculos a seguir.
+
+            </p>
+            <button class="next-btn" onclick="goToScreen(5)">➡️</button>
+        </div>
+
+        <!-- Screen 5: Desafios e Conflitos -->
+        <div id="screen5" class="screen">
+            <h2>Desafios Externos
+            </h2>
+            <p>A resiliência do império foi testada por invasões e conflitos com vizinhos, particularmente os persas
+                sassânidas. Além disso, a ascensão do Islã no século VII representou um novo conjunto de desafios, à
+                medida que os califados árabes começaram a se expandir em territórios bizantinos.
+            </p>
+            <button class="next-btn" onclick="goToScreen(6)">➡️</button>
+        </div>
+        <!-- Screen 7: Rota da Seda -->
+        <div id="screen6" class="screen">
+            <h2>Rota da Seda e o Império Bizantino</h2>
+            <p>Durante o Alto Império Bizantino, a Rota da Seda, uma série de rotas comerciais interconectadas,
+                desempenhou um papel crucial no comércio e intercâmbio cultural. O Império Bizantino se beneficiou
+                enormemente dessas rotas, pois Constantinopla servia como um importante centro comercial e ponto de
+                transição entre o Ocidente e o Oriente.</p>
+            <button class="next-btn" onclick="goToScreen(8)">➡️</button>
+        </div>
+        <!-- ... seu código anterior ... -->
+
+        <!-- Screen 8: Mercadorias e Influência Cultural -->
+        <div id="screen8" class="screen">
+            <h2>Mercadorias e Influência Cultural</h2>
+            <p>Por meio da Rota da Seda, o Império Bizantino importou e exportou uma variedade de mercadorias, incluindo
+                especiarias, seda, ouro e pedras preciosas. A seda, em particular, era tão valorizada que Constantinopla
+                tentou estabelecer um monopólio sobre sua produção. Além das mercadorias, houve também um intercâmbio de
+                ideias, artes e inovações tecnológicas entre o Oriente e o Ocidente.</p>
+            <button class="next-btn" onclick="goToScreen(9)">➡️</button>
+        </div>
+
+        <!-- Screen 9: Conclusão Geral -->
+        <div id="screen9" class="screen">
+            <h2>Conclusão Geral</h2>
+            <p>O Império Bizantino, em seu auge, não foi apenas um bastião da herança romana, mas também um epicentro
+                vibrante de comércio, cultura e inovação. Sua posição estratégica na Rota da Seda e sua interação com
+                civilizações de todo o mundo antigo permitiram que influências culturais, tecnologias e mercadorias
+                fossem compartilhadas. A herança do Alto Império Bizantino, de reconquistas territoriais a avanços
+                jurídicos e comerciais, ressoa em muitas facetas da história global.</p>
+            <button class="next-btn" onclick="goToScreen(10)">➡️</button>
+        </div>
+        <!-- Screen 10: Questionário Interativo -->
+        <div id="screen10" class="screen">
+            <h2>Questionário Interativo</h2>
+
+            <form class="questionnaire">
+                <!-- Pergunta 1 -->
+                <div class="question">
+                    <p class="prompt">1. Qual era a capital do Império Bizantino?</p>
+                    <ul class="options">
+                        <li><input type="radio" name="q1" value="a"> Roma</li>
+                        <li><input type="radio" name="q1" value="b"> Constantinopla</li>
+                        <li><input type="radio" name="q1" value="c"> Atenas</li>
+                    </ul>
+                </div>
+
+                <!-- Pergunta 2 (para exemplificar) -->
+                <div class="question">
+                    <p class="prompt">2. Quem foi o imperador responsável pela codificação do direito romano no "Corpus
+                        Juris Civilis"?</p>
+                    <ul class="options">
+                        <li><input type="radio" name="q2" value="a"> Constantino</li>
+                        <li><input type="radio" name="q2" value="b"> Justiniano I</li>
+                        <li><input type="radio" name="q2" value="c"> Teodósio</li>
+                    </ul>
+                </div>
+
+                <button type="button" class="next-btn" onclick="verifyAnswers()">Verificar</button>
+            </form>
+        </div>
+
+
+
+
+        <!-- ... o restante do seu código ... -->
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
